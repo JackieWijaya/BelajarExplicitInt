@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="6dp"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/btn_pindah"
+    tools:context=".SecondActivity">
+    
+    <TextView
+        android:id="@+id/tv_selamat_datang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PINDAH"
+        android:text="Selamat Datang"
+        android:textSize="17sp"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>
